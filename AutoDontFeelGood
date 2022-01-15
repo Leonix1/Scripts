@@ -1,0 +1,7 @@
+while true do
+    local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+wait(5)
+game:GetService("ReplicatedStorage").DontFeelSoGood:FireServer(unpack(args))
+end
